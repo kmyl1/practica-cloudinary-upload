@@ -1,0 +1,104 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.contenedor{
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  width: 420px;
+  margin: 0 auto;
+  padding: 32px 28px;
+}
+
+.contenedor::before{
+  content: "";
+  display: block;
+  height: 4px;
+  background-color: #2d6cdf;
+  margin: -32px -28px 28px -28px;
+}
+
+h1{
+  font-size: 20px;
+  color: #222222;
+  margin: 0 0 6px 0;
+}
+
+.subtitulo{
+  font-size: 13px;
+  color: #777777;
+  margin: 0 0 24px 0;
+}
+
+.etiqueta{
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  color: #444444;
+  margin-bottom: 6px;
+
+}
+.area-archivo{
+  border: 1px dashed #aaaaaa;
+  background-color: #f8f8f8;
+  padding: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#inputArchivo{
+  font-size: 13px;
+  color: #333333;
+}
+
+#botonSubir{
+  background-color: #2d6cdf;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#botonSubir:disabled{
+  background-color: #aaaaaa;
+  cursor: not-allowed;
+}
+
+.separador{
+  border: none;
+  border-top: 1px solid #eeeeee;
+  margin: 20px 0;
+}
+#textoEstado{
+  font-size: 13px;
+  color: #555555;
+  margin: 12px 0 0 0;
+  min-height: 18px;
+}
+
+#imagenResultado{
+  width: 100%;
+
+  border: 1px solid #cccccc;
+  margin-top: 16px;
+  display: none;
+}
+
+.caja-url{
+  background-color: #f2f2f2;
+  border: 1px solid #cccccc;
+  padding: 8px 10px;
+  margin-top: 10px;
+}
+
+#urlResultado{
+  font-size: 11px;
+  color: #2d6cdf;
+  word-break: break-all;
+  margin: 0;
+}

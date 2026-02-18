@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Almacenamiento en la nube</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Subir imagen </h1>
+    <p class="subtitulo">Selecciona una imagen para subir a la nube</p>
+    <span class="etiqueta">Seleccionar una imagen</span>
+
+    <div class="area-archivo">
+      <input type="file" id="inputArchivo" accept="image/*" />
+    </div>
+
+    <button id="botonSubir">Subir imagen</button>
+    <p id="textoEstado"></p>
+    <hr class="separador" />
+    <img id="imagenResultado" src="" alt="Imagen subida" />
+
+    <div class="caja-url">
+      <p id="urlResultado"></p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
